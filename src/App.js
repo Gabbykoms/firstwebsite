@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
+import { NavBar } from './components/NavBar';
 import './App.css';
+import Background from './components/Background';
+import Hero from './components/Hero';
+import Technologies from './components/Technologies';
+import CertificationsButton from './components/CertificationsButton';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App-container"   style={{ height: '50vh', width: '100vw' }}>
+      
+      <NavBar />
+      <Background />
+      <Hero />
+      <Technologies />
+      <CertificationsButton link="https://drive.google.com/drive/folders/1KV_toFWOmTMnyRl8bSC6TOJngi_N85yW?usp=share_link"/>
+      <Projects />
+      <Footer />
+      
+      {/* Your other components */}
     </div>
   );
 }

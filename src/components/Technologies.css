@@ -1,0 +1,25 @@
+.technologies {
+    margin-top: -50px; 
+    text-align: center;
+    padding-top: 400px; 
+    padding-bottom: 20px;
+  }
+  
+  .tech-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .tech-logo {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    animation: swing 3s ease-in-out infinite;
+  }
+  
+  @keyframes swing {
+    0%, 100% { transform: translateY(0) translateX(0); }
+    25% { transform: translateY(-10px) translateX(5px); }
+    75% { transform: translateY(10px) translateX(-5px); }
+  }

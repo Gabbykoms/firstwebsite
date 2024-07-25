@@ -1,0 +1,20 @@
+.certifications-button-container {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .certifications-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgba(110, 49, 189, 0.733);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .certifications-button:hover {
+    background-color: #61dafb;
+    color: #1a1a1a;
+  }
