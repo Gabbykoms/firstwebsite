@@ -1,6 +1,8 @@
 import React from 'react';
 import './Hero.css';
-import yourImage from '../assets/img/hero sec.png'; 
+// import yourImage from '../assets/img/hero sec.png'; 
+import yourImage from '../assets/img/gabe copy.jpeg'; 
+
 
 const Hero = () => {
   return (
@@ -12,10 +14,10 @@ const Hero = () => {
         <div className="hero-text">
           <h1>Fullstack Developer</h1>
           <p>
-            Hello! I am Gabriel, a passionate fullstack developer with expertise in 
-            webdev, backend, android dev. I love creating efficient, scalable, and user-friendly 
-            web applications. I've worked on projects 
-            ranging from prediction models, android apps, text editors with AI features. 
+            Hello! I am Gabriel, a passionate fullstack developer who also dabbles in 
+            android development, cloud computing, AI/ML & data engineering. I create efficient, scalable, and user-friendly 
+            applications. Ongoing & past projects 
+            range from prediction models, android apps, text editors with AI features. 
           </p>
         </div>
         <div className="hero-image">
